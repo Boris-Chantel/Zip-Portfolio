@@ -40,16 +40,25 @@ a:hover:not(.active) {
 background-color:#4CAF50;
 }
 
-.under {
-    
-    margin: 0 auto;
+.main_content {
+    width: 600px;
+    height: 200px;
+    line-height: 500px;
+    margin: auto;
     padding: 0;
     text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .block {
-    height: 500px;
-    background-color: #1a1a1a;
+    background-image: url(hand_hero.jpg);
+    background-size:cover;
+    height: 600px;
+    
 }
 
 /*.hero h1 {
@@ -62,19 +71,138 @@ background-color:#4CAF50;
     
 }
 */
+.main_content h1 {
+    
+    font-size: 75px;
+    padding: 25px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
 #bold {
+    color:#4CAF50;
+}
+
+.about_me {
+    clear: both;
+    margin-top: 0px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#head {
     color: #4CAF50;
+    margin-bottom: 30px;
 }
 
 .bio {
-    height:500px;
-    background-color: #e6e6e6;
+    text-align: justify;
+    margin-right: 100%;
+    margin-bottom: 60px;
+    
 }
 
-.bio h1 {
-    text-align: center;
-    font-size: 25px;
-    margin: 0;
-    padding: 30px;
+.center {
+    font-size: 80px;
+    
+}
+
+i {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+}
+
+
+/*.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: 
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) { 
+    
+    
+    
+    
+    
+ .icons 
+    {font-size: 1em;
+    margin-bottom: 50px;
+    
+}
+    
+}
+*/
+.portfolio {
+   
+    margin: 0PX 50PX 50PX 50px;
     color: #4CAF50;
+    text-align:center;
+    background-color: white;
+    clear:both;
+}
+
+
+
+#header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.resume {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.resume h1 {
+  color: #4CAF50;
+  margin-top: 60px;
+}
+
+.resume img {
+    width: 1000px;
+    padding-top: 60px; 
+    padding-bottom: 100px;
+    overflow: hidden;
+    repeat: none;
+
+}
+
+.footer {
+    height: 300px;
+    background-color: black;
+}
+    
+.footer h3 {
+    color: #fff;
+}
+
+#thanks {
+    color:#4CAF50;
+}
+
+.portfolio img:hover:not(.active) {
+    background-color: #4CAF50;
 }
